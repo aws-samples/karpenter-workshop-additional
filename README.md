@@ -1,17 +1,9 @@
-## My Project
+Additional script files for AWS workshop
 
-TODO: Fill this README out!
+https://catalog.workshops.aws/karpenter/en-US
 
-Be sure to:
+The folder structure reflects the workshop chapters
 
-* Change the title in this README
-* Edit your repository description on GitHub
+The scripts can be run in order to automate the steps described in the workshops documentation
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
 
