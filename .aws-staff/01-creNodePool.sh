@@ -31,6 +31,10 @@ spec:
       - key: kubernetes.io/os
         operator: In
         values: ["linux"]
+      - key: capacity-spread
+        operator: In
+        values:
+        - "1"
 
 EoF
 
@@ -66,6 +70,10 @@ spec:
       - key: kubernetes.io/os
         operator: In
         values: ["linux"]
+      - key: capacity-spread
+        operator: In
+        values:
+        - "2"
 EoF
 
 
@@ -108,12 +116,12 @@ spec:
     spec:
       terminationGracePeriodSeconds: 0
       topologySpreadConstraints:
-         - maxSkew: 1
-           topologyKey: karpenter.sh/nodepool
-           whenUnsatisfiable: DoNotSchedule
-           labelSelector:
-             matchLabels:
-               app: inflate
+      - maxSkew: 1
+        topologyKey: capacity-spread
+        whenUnsatisfiable: DoNotSchedule
+        labelSelector:
+          matchLabels:
+            app: inflate
       containers:
         - name: inflate
           image: public.ecr.aws/eks-distro/kubernetes/pause:3.7
