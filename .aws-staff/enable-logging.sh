@@ -1,0 +1,1 @@
+eksctl utils update-cluster-logging --enable-types all --cluster eksworkshop-eksctl --approve
