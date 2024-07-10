@@ -111,6 +111,9 @@ spec:
          - maxSkew: 1
            topologyKey: karpenter.sh/nodepool
            whenUnsatisfiable: DoNotSchedule
+           labelSelector:
+             matchLabels:
+               app: inflate
       containers:
         - name: inflate
           image: public.ecr.aws/eks-distro/kubernetes/pause:3.7
