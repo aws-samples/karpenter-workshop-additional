@@ -1,10 +1,9 @@
 export CLUSTER_NAME=$(eksctl get clusters -o json | jq -r '.[0].Name')
-cd ~/environment/karpenter
 cat <<EoF> basic.yaml
 apiVersion: karpenter.sh/v1beta1
 kind: NodePool
 metadata:
-  name: default
+  name: default1
 spec:
   disruption:
     consolidateAfter: 30s
@@ -34,11 +33,10 @@ spec:
         values: ["linux"]
 
 ----
-
 apiVersion: karpenter.sh/v1beta1
 kind: NodePool
 metadata:
-  name: default
+  name: default2
 spec:
   disruption:
     consolidateAfter: 30s
@@ -66,9 +64,8 @@ spec:
       - key: kubernetes.io/os
         operator: In
         values: ["linux"]
-
-
 ---
+
 apiVersion: karpenter.k8s.aws/v1beta1
 kind: EC2NodeClass
 metadata:
