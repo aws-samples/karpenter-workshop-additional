@@ -1,5 +1,5 @@
 export CLUSTER_NAME=$(eksctl get clusters -o json | jq -r '.[0].Name')
-cat <<EoF> basic.yaml
+cat <<EoF> np1.yaml
 apiVersion: karpenter.sh/v1beta1
 kind: NodePool
 metadata:
@@ -32,7 +32,9 @@ spec:
         operator: In
         values: ["linux"]
 
-----
+EoF
+
+cat <<EoF> np2.yaml
 apiVersion: karpenter.sh/v1beta1
 kind: NodePool
 metadata:
@@ -64,8 +66,10 @@ spec:
       - key: kubernetes.io/os
         operator: In
         values: ["linux"]
----
+EoF
 
+
+cat <<EoF> ec2nc.yaml
 apiVersion: karpenter.k8s.aws/v1beta1
 kind: EC2NodeClass
 metadata:
@@ -84,9 +88,9 @@ spec:
     managed-by: karpenter
 EoF
 
-##########
 
-cat <<EoF> basic-deploy.yaml
+
+cat <<EoF> inflate.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -113,6 +117,3 @@ spec:
         eks-immersion-team: my-team
 EoF
 
-kubectl apply -f basic.yaml
-sleep 5
-kubectl apply -f basic-deploy.yaml
