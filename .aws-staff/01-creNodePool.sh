@@ -107,6 +107,10 @@ spec:
         app: inflate
     spec:
       terminationGracePeriodSeconds: 0
+      topologySpreadConstraints:
+         - maxSkew: 1
+           topologyKey: karpenter.sh/nodepool
+           whenUnsatisfiable: DoNotSchedule
       containers:
         - name: inflate
           image: public.ecr.aws/eks-distro/kubernetes/pause:3.7
