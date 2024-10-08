@@ -1,0 +1,529 @@
+{
+    "Product": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "1"
+                    },
+                    "Product_Name": {
+                        "S": "WHITE HANGING HEART T-LIGHT HOLDER"
+                    },
+                    "Price": {
+                        "N": "27.02"
+                    },
+                    "Quantity": {
+                        "N": "492"
+                    },
+                    "Product_Category": {
+                        "S": "Music"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "2"
+                    },
+                    "Product_Name": {
+                        "S": "WHITE METAL LANTERN"
+                    },
+                    "Price": {
+                        "N": "1.12"
+                    },
+                    "Quantity": {
+                        "N": "507"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "3"
+                    },
+                    "Product_Name": {
+                        "S": "CREAM CUPID HEARTS COAT HANGER"
+                    },
+                    "Price": {
+                        "N": "7.11"
+                    },
+                    "Quantity": {
+                        "N": "500"
+                    },
+                    "Product_Category": {
+                        "S": "Home"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "4"
+                    },
+                    "Product_Name": {
+                        "S": "KNITTED UNION FLAG HOT WATER BOTTLE"
+                    },
+                    "Price": {
+                        "N": "1.35"
+                    },
+                    "Quantity": {
+                        "N": "495"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "5"
+                    },
+                    "Product_Name": {
+                        "S": "RED WOOLLY HOTTIE WHITE HEART."
+                    },
+                    "Price": {
+                        "N": "4"
+                    },
+                    "Quantity": {
+                        "N": "499"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "6"
+                    },
+                    "Product_Name": {
+                        "S": "SET 7 BABUSHKA NESTING BOXES"
+                    },
+                    "Price": {
+                        "N": "0.85"
+                    },
+                    "Quantity": {
+                        "N": "518"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "7"
+                    },
+                    "Product_Name": {
+                        "S": "GLASS STAR FROSTED T-LIGHT HOLDER"
+                    },
+                    "Price": {
+                        "N": "9.94"
+                    },
+                    "Quantity": {
+                        "N": "502"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "8"
+                    },
+                    "Product_Name": {
+                        "S": "HAND WARMER UNION JACK"
+                    },
+                    "Price": {
+                        "N": "2.76"
+                    },
+                    "Quantity": {
+                        "N": "504"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "9"
+                    },
+                    "Product_Name": {
+                        "S": "HAND WARMER RED POLKA DOT"
+                    },
+                    "Price": {
+                        "N": "4.46"
+                    },
+                    "Quantity": {
+                        "N": "498"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "10"
+                    },
+                    "Product_Name": {
+                        "S": "ASSORTED COLOUR BIRD ORNAMENT"
+                    },
+                    "Price": {
+                        "N": "8.94"
+                    },
+                    "Quantity": {
+                        "N": "495"
+                    },
+                    "Product_Category": {
+                        "S": "Electronics"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "11"
+                    },
+                    "Product_Name": {
+                        "S": "POPPY'S PLAYHOUSE BEDROOM "
+                    },
+                    "Price": {
+                        "N": "54.87"
+                    },
+                    "Quantity": {
+                        "N": "505"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "12"
+                    },
+                    "Product_Name": {
+                        "S": "POPPY'S PLAYHOUSE KITCHEN"
+                    },
+                    "Price": {
+                        "N": "6.54"
+                    },
+                    "Quantity": {
+                        "N": "505"
+                    },
+                    "Product_Category": {
+                        "S": "Home"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "13"
+                    },
+                    "Product_Name": {
+                        "S": "FELTCRAFT PRINCESS CHARLOTTE DOLL"
+                    },
+                    "Price": {
+                        "N": "8.76"
+                    },
+                    "Quantity": {
+                        "N": "499"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "14"
+                    },
+                    "Product_Name": {
+                        "S": "IVORY KNITTED MUG COSY "
+                    },
+                    "Price": {
+                        "N": "1.85"
+                    },
+                    "Quantity": {
+                        "N": "503"
+                    },
+                    "Product_Category": {
+                        "S": "Sports"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "15"
+                    },
+                    "Product_Name": {
+                        "S": "BOX OF 6 ASSORTED COLOUR TEASPOONS"
+                    },
+                    "Price": {
+                        "N": "2.57"
+                    },
+                    "Quantity": {
+                        "N": "490"
+                    },
+                    "Product_Category": {
+                        "S": "Music"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "16"
+                    },
+                    "Product_Name": {
+                        "S": "BOX OF VINTAGE JIGSAW BLOCKS "
+                    },
+                    "Price": {
+                        "N": "0.31"
+                    },
+                    "Quantity": {
+                        "N": "504"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "17"
+                    },
+                    "Product_Name": {
+                        "S": "BOX OF VINTAGE ALPHABET BLOCKS"
+                    },
+                    "Price": {
+                        "N": "6.49"
+                    },
+                    "Quantity": {
+                        "N": "497"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "18"
+                    },
+                    "Product_Name": {
+                        "S": "HOME BUILDING BLOCK WORD"
+                    },
+                    "Price": {
+                        "N": "0.87"
+                    },
+                    "Quantity": {
+                        "N": "488"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "19"
+                    },
+                    "Product_Name": {
+                        "S": "LOVE BUILDING BLOCK WORD"
+                    },
+                    "Price": {
+                        "N": "10.61"
+                    },
+                    "Quantity": {
+                        "N": "498"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "20"
+                    },
+                    "Product_Name": {
+                        "S": "RECIPE BOX WITH METAL HEART"
+                    },
+                    "Price": {
+                        "N": "29.35"
+                    },
+                    "Quantity": {
+                        "N": "503"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "21"
+                    },
+                    "Product_Name": {
+                        "S": "DOORMAT NEW ENGLAND"
+                    },
+                    "Price": {
+                        "N": "10.71"
+                    },
+                    "Quantity": {
+                        "N": "499"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "22"
+                    },
+                    "Product_Name": {
+                        "S": "JAM MAKING SET WITH JARS"
+                    },
+                    "Price": {
+                        "N": "7.11"
+                    },
+                    "Quantity": {
+                        "N": "489"
+                    },
+                    "Product_Category": {
+                        "S": "Electronics"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "23"
+                    },
+                    "Product_Name": {
+                        "S": "RED COAT RACK PARIS FASHION"
+                    },
+                    "Price": {
+                        "N": "3.73"
+                    },
+                    "Quantity": {
+                        "N": "505"
+                    },
+                    "Product_Category": {
+                        "S": "Electronics"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "24"
+                    },
+                    "Product_Name": {
+                        "S": "YELLOW COAT RACK PARIS FASHION"
+                    },
+                    "Price": {
+                        "N": "2.61"
+                    },
+                    "Quantity": {
+                        "N": "497"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "25"
+                    },
+                    "Product_Name": {
+                        "S": "BLUE COAT RACK PARIS FASHION"
+                    },
+                    "Price": {
+                        "N": "75.28"
+                    },
+                    "Quantity": {
+                        "N": "497"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        }
+    ]
+}

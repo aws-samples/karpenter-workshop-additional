@@ -1,0 +1,14 @@
+{
+    "CatalogId": "007532665219",
+    "Principal": {
+        "DataLakePrincipalIdentifier": "arn:aws:iam::007532665219:role/GlueExecutionRole"
+    },
+    "Resource": {
+        "Database": {
+            "CatalogId": "007532665219",
+            "Name": "analytics"
+        }
+     },
+    "Permissions": ["CREATE_TABLE"],
+    "PermissionsWithGrantOption": []
+}

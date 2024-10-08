@@ -1,0 +1,15 @@
+{
+    "CatalogId": "007532665219",
+    "Principal": {
+        "DataLakePrincipalIdentifier": "arn:aws:iam::007532665219:role/GlueExecutionRole"
+    },
+    "Resource": {
+        "Table": {
+            "CatalogId": "007532665219",
+            "DatabaseName": "raw",
+            "TableWildcard": {}
+            }
+     },
+    "Permissions": ["SELECT","ALTER"],
+    "PermissionsWithGrantOption": []
+}

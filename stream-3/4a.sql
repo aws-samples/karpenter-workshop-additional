@@ -1,0 +1,1 @@
+select * from daily_sales_revenue;

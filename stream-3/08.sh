@@ -1,0 +1,1 @@
+./run-query.sh 8-all-sales.sql

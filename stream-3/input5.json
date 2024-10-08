@@ -1,0 +1,15 @@
+{
+    "CatalogId": "007532665219",
+    "Principal": {
+        "DataLakePrincipalIdentifier": "arn:aws:iam::007532665219:role/RedshiftExecutionRole"
+    },
+    "Resource": {
+        "Table": {
+            "CatalogId": "007532665219",
+            "DatabaseName": "stage",
+            "Name": "stage_sales"
+            }
+     },
+    "Permissions": ["SELECT"],
+    "PermissionsWithGrantOption": []
+}

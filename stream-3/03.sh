@@ -1,0 +1,1 @@
+./run-query.sh 3.sql

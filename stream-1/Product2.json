@@ -1,0 +1,529 @@
+{
+    "Product": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "26"
+                    },
+                    "Product_Name": {
+                        "S": "BATH BUILDING BLOCK WORD"
+                    },
+                    "Price": {
+                        "N": "2.77"
+                    },
+                    "Quantity": {
+                        "N": "494"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "27"
+                    },
+                    "Product_Name": {
+                        "S": "ALARM CLOCK BAKELIKE PINK"
+                    },
+                    "Price": {
+                        "N": "8.57"
+                    },
+                    "Quantity": {
+                        "N": "503"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "28"
+                    },
+                    "Product_Name": {
+                        "S": "ALARM CLOCK BAKELIKE RED "
+                    },
+                    "Price": {
+                        "N": "0.15"
+                    },
+                    "Quantity": {
+                        "N": "496"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "29"
+                    },
+                    "Product_Name": {
+                        "S": "ALARM CLOCK BAKELIKE GREEN"
+                    },
+                    "Price": {
+                        "N": "1.04"
+                    },
+                    "Quantity": {
+                        "N": "493"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "30"
+                    },
+                    "Product_Name": {
+                        "S": "PANDA AND BUNNIES STICKER SHEET"
+                    },
+                    "Price": {
+                        "N": "86"
+                    },
+                    "Quantity": {
+                        "N": "506"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "31"
+                    },
+                    "Product_Name": {
+                        "S": "STARS GIFT TAPE "
+                    },
+                    "Price": {
+                        "N": "8.48"
+                    },
+                    "Quantity": {
+                        "N": "495"
+                    },
+                    "Product_Category": {
+                        "S": "Sports"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "32"
+                    },
+                    "Product_Name": {
+                        "S": "INFLATABLE POLITICAL GLOBE "
+                    },
+                    "Price": {
+                        "N": "1.77"
+                    },
+                    "Quantity": {
+                        "N": "497"
+                    },
+                    "Product_Category": {
+                        "S": "Home"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "33"
+                    },
+                    "Product_Name": {
+                        "S": "VINTAGE HEADS AND TAILS CARD GAME "
+                    },
+                    "Price": {
+                        "N": "7.86"
+                    },
+                    "Quantity": {
+                        "N": "503"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "34"
+                    },
+                    "Product_Name": {
+                        "S": "SET/2 RED RETROSPOT TEA TOWELS "
+                    },
+                    "Price": {
+                        "N": "2.07"
+                    },
+                    "Quantity": {
+                        "N": "501"
+                    },
+                    "Product_Category": {
+                        "S": "Electronics"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "35"
+                    },
+                    "Product_Name": {
+                        "S": "ROUND SNACK BOXES SET OF4 WOODLAND "
+                    },
+                    "Price": {
+                        "N": "2.32"
+                    },
+                    "Quantity": {
+                        "N": "494"
+                    },
+                    "Product_Category": {
+                        "S": "Books"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "36"
+                    },
+                    "Product_Name": {
+                        "S": "SPACEBOY LUNCH BOX "
+                    },
+                    "Price": {
+                        "N": "91.42"
+                    },
+                    "Quantity": {
+                        "N": "502"
+                    },
+                    "Product_Category": {
+                        "S": "Women"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "37"
+                    },
+                    "Product_Name": {
+                        "S": "LUNCH BOX I LOVE LONDON"
+                    },
+                    "Price": {
+                        "N": "2.42"
+                    },
+                    "Quantity": {
+                        "N": "504"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "38"
+                    },
+                    "Product_Name": {
+                        "S": "CIRCUS PARADE LUNCH BOX "
+                    },
+                    "Price": {
+                        "N": "16.7"
+                    },
+                    "Quantity": {
+                        "N": "503"
+                    },
+                    "Product_Category": {
+                        "S": "Men"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "39"
+                    },
+                    "Product_Name": {
+                        "S": "CHARLOTTE BAG DOLLY GIRL DESIGN"
+                    },
+                    "Price": {
+                        "N": "5.07"
+                    },
+                    "Quantity": {
+                        "N": "503"
+                    },
+                    "Product_Category": {
+                        "S": "Books"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "40"
+                    },
+                    "Product_Name": {
+                        "S": "RED TOADSTOOL LED NIGHT LIGHT"
+                    },
+                    "Price": {
+                        "N": "9.93"
+                    },
+                    "Quantity": {
+                        "N": "505"
+                    },
+                    "Product_Category": {
+                        "S": "Home"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "41"
+                    },
+                    "Product_Name": {
+                        "S": " SET 2 TEA TOWELS I LOVE LONDON "
+                    },
+                    "Price": {
+                        "N": "4.4"
+                    },
+                    "Quantity": {
+                        "N": "494"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "42"
+                    },
+                    "Product_Name": {
+                        "S": "VINTAGE SEASIDE JIGSAW PUZZLES"
+                    },
+                    "Price": {
+                        "N": "9.15"
+                    },
+                    "Quantity": {
+                        "N": "494"
+                    },
+                    "Product_Category": {
+                        "S": "Music"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "43"
+                    },
+                    "Product_Name": {
+                        "S": "MINI JIGSAW CIRCUS PARADE "
+                    },
+                    "Price": {
+                        "N": "6.08"
+                    },
+                    "Quantity": {
+                        "N": "498"
+                    },
+                    "Product_Category": {
+                        "S": "Books"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "44"
+                    },
+                    "Product_Name": {
+                        "S": "MINI JIGSAW SPACEBOY"
+                    },
+                    "Price": {
+                        "N": "5.2"
+                    },
+                    "Quantity": {
+                        "N": "497"
+                    },
+                    "Product_Category": {
+                        "S": "Music"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "45"
+                    },
+                    "Product_Name": {
+                        "S": "MINI PAINT SET VINTAGE "
+                    },
+                    "Price": {
+                        "N": "0.37"
+                    },
+                    "Quantity": {
+                        "N": "494"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "46"
+                    },
+                    "Product_Name": {
+                        "S": "POSTAGE"
+                    },
+                    "Price": {
+                        "N": "98.66"
+                    },
+                    "Quantity": {
+                        "N": "493"
+                    },
+                    "Product_Category": {
+                        "S": "Jewelry"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "47"
+                    },
+                    "Product_Name": {
+                        "S": "PAPER CHAIN KIT 50'S CHRISTMAS "
+                    },
+                    "Price": {
+                        "N": "3"
+                    },
+                    "Quantity": {
+                        "N": "502"
+                    },
+                    "Product_Category": {
+                        "S": "Shoes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "48"
+                    },
+                    "Product_Name": {
+                        "S": "HAND WARMER RED POLKA DOT"
+                    },
+                    "Price": {
+                        "N": "1.45"
+                    },
+                    "Quantity": {
+                        "N": "501"
+                    },
+                    "Product_Category": {
+                        "S": "Music"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "49"
+                    },
+                    "Product_Name": {
+                        "S": "HAND WARMER UNION JACK"
+                    },
+                    "Price": {
+                        "N": "8.01"
+                    },
+                    "Quantity": {
+                        "N": "493"
+                    },
+                    "Product_Category": {
+                        "S": "Children"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Product_Id": {
+                        "S": "50"
+                    },
+                    "Product_Name": {
+                        "S": "WHITE HANGING HEART T-LIGHT HOLDER"
+                    },
+                    "Price": {
+                        "N": "4.99"
+                    },
+                    "Quantity": {
+                        "N": "500"
+                    },
+                    "Product_Category": {
+                        "S": "Shoes"
+                    }
+                }
+            }
+        }
+    ]
+}

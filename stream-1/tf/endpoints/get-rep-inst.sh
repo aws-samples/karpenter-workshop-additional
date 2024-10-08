@@ -1,0 +1,2 @@
+BUCKET_NAME=$(aws dms describe-replication-instances | jq -r '.ReplicationInstances[] | select(.ReplicationInstanceIdentifier=="aurora-s3-repinstance").ReplicationInstanceArn')
+jq -n --arg bn "$BUCKET_NAME" '{"Name":$bn}'

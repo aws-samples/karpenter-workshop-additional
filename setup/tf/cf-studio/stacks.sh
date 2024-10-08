@@ -1,0 +1,10 @@
+../../aws2tf.py -t stack -i launch
+../../aws2tf.py -t stack -i launch-Database-1H67DY5IOVUYD
+../../aws2tf.py -t stack -i launch-Foundation-PI0M6I23K8NQ
+../../aws2tf.py -t stack -i launch-MachineLearning-XF005AD8JL9S
+../../aws2tf.py -t stack -i launch-OpenSearch-1AHV6CUBN7LQ0
+../../aws2tf.py -t stack -i launch-Database-1H67DY5IOVUYD-AuroraStack-1DYK9Y8ASQ36Q
+../../aws2tf.py -t stack -i launch-Database-1H67DY5IOVUYD-DMSStack-PSQCZ6HTOKHV
+../../aws2tf.py -t stack -i launch-Database-1H67DY5IOVUYD-RedshiftStack-LJ4Y5LUPASXW
+../../aws2tf.py -t stack -i launch-Database-1H67DY5IOVUYD-VPCStack-15EUWESI8KQ8H
+../../aws2tf.py -t stack -i launch-Foundation-PI0M6I23K8NQ-StepFunctionStack-DV1TOCKW7GL6
