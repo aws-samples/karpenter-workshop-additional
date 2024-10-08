@@ -6,7 +6,7 @@ resource "aws_dms_replication_instance" "aurora-s3-repinstance" {
   auto_minor_version_upgrade   = true
   availability_zone            = format("%sa", data.aws_region.current.name)
   engine_version               = "3.5.2"
-  kms_key_arn                  = "arn:aws:kms:eu-west-1:011487565228:key/cf77f16e-38b4-44f5-ad12-088cdefa84d6"
+  kms_key_arn                  = "arn:aws:kms:eu-west-1:xxxxxxxxxxxx:key/cf77f16e-38b4-44f5-ad12-088cdefa84d6"
   multi_az                     = false
   network_type                 = "IPV4"
   preferred_maintenance_window = "tue:07:55-tue:08:25"
