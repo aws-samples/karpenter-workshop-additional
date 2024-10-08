@@ -1,5 +1,5 @@
+## Modern Data Immersion day
 
-A
 
 CT - create trail
 mda-events - new S3 , kms enabled, New key, "mda-key-alias", log file validation enabled, 
