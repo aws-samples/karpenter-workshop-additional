@@ -3,7 +3,7 @@ resource "aws_dms_replication_task" "cdc-task" {
   cdc_start_position       = null
   cdc_start_time           = null
   migration_type           = "cdc"
-  replication_instance_arn = data.aws_dms_replication_instance.aurora-s3-repinstance.arn
+  replication_instance_arn = data.aws_dms_replication_instance.aurora-s3-repinstance
   replication_task_id      = "cdc-task"
   replication_task_settings = jsonencode({
     BeforeImageSettings = null
