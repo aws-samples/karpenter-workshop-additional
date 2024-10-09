@@ -4,5 +4,5 @@ data "external" "repinstid" {
 }
 
 data "aws_dms_replication_instance" "aurora-s3-repinstance" {
-  replication_instance_id = data.external.repinstid.Name
+  replication_instance_id = data.external.repinstid.result.Name
 }
