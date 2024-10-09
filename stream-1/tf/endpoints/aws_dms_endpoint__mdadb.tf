@@ -2,6 +2,7 @@
 
 variable "pw1" {
   type = string
+  default = "Admin123$"
 }
 
 resource "aws_dms_endpoint" "mdadb" {
