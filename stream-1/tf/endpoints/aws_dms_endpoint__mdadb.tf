@@ -22,7 +22,6 @@ resource "aws_dms_endpoint" "mdadb" {
   port                            = 3306
   secrets_manager_access_role_arn = null
   secrets_manager_arn             = null
-  server_name                     = "mdadb.chk4g8maydyw.eu-west-1.rds.amazonaws.com"
   service_access_role             = null
   ssl_mode                        = "none"
   tags                            = {}
